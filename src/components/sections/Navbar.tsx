@@ -61,7 +61,7 @@ export default function Navbar() {
             size="sm"
             className="bg-[#00D4FF]/10 hover:bg-[#00D4FF]/20 text-[#00D4FF] text-[13px] rounded-lg px-4 h-9 gap-2 transition-all duration-200 border border-[#00D4FF]/20 hover:border-[#00D4FF]/40 shadow-[0_0_15px_rgba(0,212,255,0.1)] hover:shadow-[0_0_25px_rgba(0,212,255,0.2)]"
           >
-            <a href="tel:+91XXXXXXXXXX">
+            <a href="tel:+916235153938">
               <Phone className="w-3.5 h-3.5" />
               Connect
             </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
                 asChild
                 className="mt-2 bg-[#00D4FF]/10 hover:bg-[#00D4FF]/20 text-[#00D4FF] border border-[#00D4FF]/20 rounded-lg h-10"
               >
-                <a href="tel:+91XXXXXXXXXX" onClick={() => setIsMobileOpen(false)}>
+                <a href="tel:+916235153938" onClick={() => setIsMobileOpen(false)}>
                   <Phone className="mr-2 w-4 h-4" />
                   Connect
                 </a>

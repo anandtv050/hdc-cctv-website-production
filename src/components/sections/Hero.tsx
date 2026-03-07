@@ -117,7 +117,7 @@ export default function Hero() {
                 asChild
                 className="bg-[#EF4444] hover:bg-[#DC2626] text-white font-medium h-11 px-6 rounded-lg text-sm gap-2 transition-all duration-200 shadow-[0_0_20px_rgba(239,68,68,0.3)] hover:shadow-[0_0_30px_rgba(239,68,68,0.5)]"
               >
-                <a href="tel:+91XXXXXXXXXX">
+                <a href="tel:+916235153938">
                   <Phone className="w-4 h-4" />
                   Call Now
                 </a>

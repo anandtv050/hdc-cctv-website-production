@@ -5,7 +5,9 @@ import {
   Camera,
   Wrench,
   FileCheck,
+  Home,
   Wifi,
+  Cctv,
   MonitorSmartphone,
   HardDrive,
 } from "lucide-react";
@@ -15,7 +17,7 @@ const services = [
   {
     icon: Camera,
     title: "CCTV Installation",
-    description: "Professional installation of HD, IP & 4K cameras for homes, offices and warehouses.",
+    description: "Professional installation of HD, IP & 4K cameras for homes, offices, Schools and Bank Sectors.",
   },
   {
     icon: Wrench,
@@ -28,19 +30,19 @@ const services = [
     description: "Annual Maintenance Contracts with regular visits, priority support and guaranteed uptime.",
   },
   {
-    icon: Wifi,
-    title: "Network Setup",
-    description: "Complete LAN, Wi-Fi and NVR/DVR configuration for seamless remote access.",
+    icon: Home,
+    title: "Home Automation",
+    description: "Advanced CCTV-based home automation with motion alerts, remote monitoring, smart sensors and automated security systems for safer homes.",
   },
   {
     icon: MonitorSmartphone,
-    title: "Remote Monitoring",
-    description: "Mobile and desktop app setup to watch live feeds from anywhere, anytime.",
+    title: "Mobile & Biometric Punching mechine",
+    description: "Biometric and mobile attendance systems for secure employee time tracking, access control and real-time monitoring.",
   },
   {
-    icon: HardDrive,
-    title: "DVR/NVR Solutions",
-    description: "High-capacity recording systems with cloud backup. Never lose footage again.",
+    icon: Cctv,
+    title: "CCTV Rental",
+    description: "Flexible CCTV camera rental services for short-term surveillance and security monitoring.",
   },
 ];
 

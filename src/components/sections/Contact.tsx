@@ -6,8 +6,8 @@ import { Phone, MapPin, Clock } from "lucide-react";
 import TiltCard from "@/components/TiltCard";
 
 const contactMethods = [
-  { icon: Phone, title: "Call Us", value: "+91 XXXXX XXXXX", sub: "Mon-Sat, 9AM-7PM", href: "tel:+91XXXXXXXXXX", color: "#00D4FF" },
-  { icon: MapPin, title: "Visit Us", value: "Your City, India", sub: "Walk-in welcome", href: "#contact", color: "#EF4444" },
+  { icon: Phone, title: "Call Us", value: "+916235153938", sub: "Mon-Sat, 9AM-7PM", href: "tel:+916235153938", color: "#00D4FF" },
+  { icon: MapPin, title: "Visit Us", value: "Mokeri, kerala", sub: "Walk-in welcome", href: "#contact", color: "#EF4444" },
 ];
 
 export default function Contact() {

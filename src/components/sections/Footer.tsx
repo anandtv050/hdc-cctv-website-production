@@ -21,7 +21,7 @@ export default function Footer() {
               Professional CCTV installation, maintenance & AMC services.
             </p>
             <div className="flex gap-2">
-              <a href="tel:+91XXXXXXXXXX" className="inline-flex items-center gap-1.5 text-[12px] text-[#6B7194] hover:text-[#00D4FF] transition-colors border border-[#1A1A2E] hover:border-[#00D4FF]/30 rounded-lg px-3 py-1.5">
+              <a href="tel:+916235153938" className="inline-flex items-center gap-1.5 text-[12px] text-[#6B7194] hover:text-[#00D4FF] transition-colors border border-[#1A1A2E] hover:border-[#00D4FF]/30 rounded-lg px-3 py-1.5">
                 <Phone className="w-3 h-3" />Call
               </a>
             </div>
@@ -37,7 +37,7 @@ export default function Footer() {
           <div>
             <p className="text-[12px] text-[#4A4F6A] uppercase tracking-wider mb-4 font-medium">Services</p>
             <div className="space-y-2.5">
-              {["CCTV Installation", "Maintenance", "AMC Services", "Remote Monitoring", "Network Setup"].map((s) => (
+              {["CCTV Installation", "Maintenance", "AMC Services", "Home Automation", "CCTV Rental"].map((s) => (
                 <a key={s} href="#services" className="block text-[13px] text-[#6B7194] hover:text-[#00D4FF] transition-colors">{s}</a>
               ))}
             </div>

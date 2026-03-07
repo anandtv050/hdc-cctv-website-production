@@ -5,9 +5,9 @@ import { ShieldCheck, Clock, Users, Award, Zap, HeadphonesIcon } from "lucide-re
 import TiltCard from "@/components/TiltCard";
 
 const reasons = [
-  { icon: ShieldCheck, title: "Certified Experts", desc: "Trained technicians with years of field experience" },
+  { icon: ShieldCheck, title: "Certified Experts", desc: "Trained technicians with 10years+ of field experience" },
   { icon: Clock, title: "24/7 Support", desc: "Round-the-clock assistance, always a call away" },
-  { icon: Users, title: "200+ Clients", desc: "Trusted by homes, offices and enterprises" },
+  { icon: Users, title: "200+ Clients", desc: "Trusted by banks, homes, offices and enterprises" },
   { icon: Award, title: "Premium Brands", desc: "Top-quality cameras with full warranty" },
   { icon: Zap, title: "Fast Turnaround", desc: "Quick installation from survey to setup" },
   { icon: HeadphonesIcon, title: "AMC Plans", desc: "Flexible contracts to keep systems running" },
@@ -30,32 +30,37 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <div className="inline-flex items-center gap-2 rounded-full border border-[#EF4444]/15 bg-[#EF4444]/5 px-3.5 py-1 mb-5">
-              <div className="w-1.5 h-1.5 rounded-full bg-[#EF4444]" style={{ boxShadow: "0 0 6px rgba(239,68,68,0.4)" }} />
-              <span className="text-[11px] font-medium text-[#EF4444] tracking-widest uppercase">Why HDC CCTV</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold tracking-tight text-[#E8ECF4] mb-6 leading-[1.15]">
-              We don&apos;t just install.<br />
-              <span className="gradient-text">We protect.</span>
-            </h2>
-            <p className="text-[#6B7194] text-[15px] leading-relaxed mb-8 max-w-lg">
-              Security isn&apos;t just our business — it&apos;s our commitment.
-              With hundreds of installations and a growing client base,
-              we bring professional-grade surveillance to every project.
-            </p>
-            <div className="space-y-3">
-              {[
-                "Custom site survey & security planning",
-                "Premium HD, IP & 4K camera systems",
-                "Clean installation with cable management",
-                "Mobile app setup for live remote viewing",
-                "Dedicated post-installation support",
-              ].map((item) => (
-                <div key={item} className="flex items-center gap-3">
-                  <div className="w-1 h-1 rounded-full bg-[#00D4FF]" />
-                  <span className="text-sm text-[#6B7194]">{item}</span>
-                </div>
-              ))}
-            </div>
+            <div className="w-1.5 h-1.5 rounded-full bg-[#EF4444]" style={{ boxShadow: "0 0 6px rgba(239,68,68,0.4)" }} />
+            <span className="text-[11px] font-medium text-[#EF4444] tracking-widest uppercase">Why HDC CCTV</span>
+          </div>
+
+          <h2 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold tracking-tight text-[#E8ECF4] mb-6 leading-[1.15]">
+            Smart Security.<br />
+            <span className="gradient-text">Trusted Protection.</span>
+          </h2>
+
+          <p className="text-[#6B7194] text-[15px] leading-relaxed mb-8 max-w-lg">
+            HDC CCTV delivers modern surveillance solutions with advanced technology,
+            experienced technicians and reliable service. From homes to high-security
+            banking environments, we provide trusted protection using high-quality
+            security systems and professional support.
+          </p>
+
+          <div className="space-y-3">
+            {[
+              "First AI-controlled self-service CCTV office in Kerala",
+              "10+ years of experienced security technicians",
+              "Fast, reliable and professional service",
+              "Trusted by banks and high-security institutions",
+              "High-quality and certified CCTV products",
+              "1 year free service and customer support",
+            ].map((item) => (
+              <div key={item} className="flex items-center gap-3">
+                <div className="w-1 h-1 rounded-full bg-[#00D4FF]" />
+                <span className="text-sm text-[#6B7194]">{item}</span>
+              </div>
+            ))}
+          </div>
           </motion.div>
 
           <div className="grid grid-cols-2 gap-3 hover-dim-group">

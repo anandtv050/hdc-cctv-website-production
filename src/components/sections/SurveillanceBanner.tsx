@@ -3,14 +3,15 @@
 import { motion } from "framer-motion";
 
 const items = [
-  "CCTV Installation",
-  "24/7 Monitoring",
-  "HD Recording",
-  "Night Vision",
-  "Remote Access",
-  "Motion Detection",
+  "CCTV Installation and Service",
+  "Home Automation",
+  "Gate Automation",
+  "Intrusion Alarm System Wireless ",
   "AMC Services",
-  "4K Ultra HD",
+  "Mobile Punching Machine",
+  "Biometric Punching Machine",
+  "All Security Systems",
+  "CCTV Rental",
 ];
 
 export default function SurveillanceBanner() {
