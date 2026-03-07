@@ -7,7 +7,7 @@ import TiltCard from "@/components/TiltCard";
 const reasons = [
   { icon: ShieldCheck, title: "Certified Experts", desc: "Trained technicians with 10years+ of field experience" },
   { icon: Clock, title: "24/7 Support", desc: "Round-the-clock assistance, always a call away" },
-  { icon: Users, title: "200+ Clients", desc: "Trusted by banks, homes, offices and enterprises" },
+  { icon: Users, title: "1000+ Clients", desc: "Trusted by banks, homes, offices and enterprises" },
   { icon: Award, title: "Premium Brands", desc: "Top-quality cameras with full warranty" },
   { icon: Zap, title: "Fast Turnaround", desc: "Quick installation from survey to setup" },
   { icon: HeadphonesIcon, title: "AMC Plans", desc: "Flexible contracts to keep systems running" },

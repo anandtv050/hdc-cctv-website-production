@@ -10,6 +10,7 @@ import Services from "@/components/sections/Services";
 import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
 import Contact from "@/components/sections/Contact";
+import Brands from "@/components/sections/Brands";
 import Footer from "@/components/sections/Footer";
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
         <About />
         <Gallery />
         <Contact />
+        <Brands />
         <Footer />
       </motion.div>
     </div>

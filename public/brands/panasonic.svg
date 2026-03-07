@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100">
+  <defs>
+    <linearGradient id="panaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0062AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0077CC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="15" y="25" width="210" height="50" rx="5" fill="url(#panaGrad)"/>
+
+  <!-- Brand text -->
+  <text x="120" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" text-anchor="middle" letter-spacing="2">
+    Panasonic
+  </text>
+
+  <!-- Tagline -->
+  <text x="120" y="70" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" opacity="0.9" letter-spacing="1.5">
+    ideas for life
+  </text>
+</svg>

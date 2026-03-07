@@ -138,8 +138,8 @@ export default function Hero() {
               className="flex gap-10 mt-14 pt-8 border-t border-[#1A1A2E] justify-center lg:justify-start"
             >
               {[
-                { value: "500+", label: "Installations" },
-                { value: "200+", label: "Clients" },
+                { value: "1500+", label: "Installations" },
+                { value: "1000+", label: "Clients" },
                 { value: "24/7", label: "Support" },
               ].map((stat) => (
                 <div key={stat.label}>

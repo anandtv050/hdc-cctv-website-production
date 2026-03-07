@@ -7,7 +7,7 @@ import TiltCard from "@/components/TiltCard";
 
 const contactMethods = [
   { icon: Phone, title: "Call Us", value: "+916235153938", sub: "Mon-Sat, 9AM-7PM", href: "tel:+916235153938", color: "#00D4FF" },
-  { icon: MapPin, title: "Visit Us", value: "Mokeri, kerala", sub: "Walk-in welcome", href: "#contact", color: "#EF4444" },
+  { icon: MapPin, title: "Visit Us", value: "Mokeri,kozhikkode, kerala", sub: "Walk-in welcome", href: "https://maps.app.goo.gl/eUfT38Sx45RvHXCb6?g_st=iw", color: "#EF4444" },
 ];
 
 export default function Contact() {
@@ -46,7 +46,7 @@ export default function Contact() {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.08 }}
             >
-              <a href={method.href}>
+              <a href={method.href} target={method.title === "Visit Us" ? "_blank" : undefined} rel={method.title === "Visit Us" ? "noopener noreferrer" : undefined}>
                 <TiltCard className="group rounded-xl border border-[#1A1A2E] bg-[#0F0F16] p-5 sm:p-6 h-full cursor-pointer hover:border-[#00D4FF]/20 transition-colors duration-300 overflow-hidden text-left">
                   <method.icon className="w-5 h-5 mb-4 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(0,212,255,0.5)]" style={{ color: method.color }} strokeWidth={1.5} />
                   <h3 className="text-[13px] sm:text-[14px] font-medium text-[#E8ECF4] mb-1">{method.title}</h3>

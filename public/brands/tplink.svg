@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100">
+  <defs>
+    <linearGradient id="tplinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00A9E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Modern rounded container -->
+  <rect x="20" y="26" width="200" height="48" rx="24" fill="url(#tplinkGrad)"/>
+
+  <!-- TP-LINK text -->
+  <text x="120" y="60" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" fill="white" text-anchor="middle" letter-spacing="2">
+    TP-LINK
+  </text>
+
+  <!-- Network icon element -->
+  <circle cx="35" cy="50" r="4" fill="white" opacity="0.9"/>
+  <circle cx="205" cy="50" r="4" fill="white" opacity="0.9"/>
+  <line x1="39" y1="50" x2="201" y2="50" stroke="white" stroke-width="1.5" opacity="0.3"/>
+</svg>
