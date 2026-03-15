@@ -6,7 +6,7 @@ import { Phone, MapPin, Clock } from "lucide-react";
 import TiltCard from "@/components/TiltCard";
 
 const contactMethods = [
-  { icon: Phone, title: "Call Us", value: "+916235153938", sub: "Mon-Sat, 9AM-7PM", href: "tel:+916235153938", color: "#00D4FF" },
+  { icon: Phone, title: "Call Us", value: "+916235153938", sub: "Mon-Sat, 9:30AM-5PM", href: "tel:+916235153938", color: "#00D4FF" },
   { icon: MapPin, title: "Visit Us", value: "Mokeri,kozhikkode, kerala", sub: "Walk-in welcome", href: "https://maps.app.goo.gl/eUfT38Sx45RvHXCb6?g_st=iw", color: "#EF4444" },
 ];
 
@@ -68,7 +68,7 @@ export default function Contact() {
           <div className="rounded-xl border border-[#1A1A2E] bg-[#0F0F16] p-6 text-center">
             <Clock className="w-4 h-4 text-[#00D4FF] mx-auto mb-3" strokeWidth={1.5} />
             <p className="text-sm font-medium text-[#E8ECF4] mb-1">Working Hours</p>
-            <p className="text-[12px] text-[#6B7194]">Mon - Sat: 9:00 AM - 7:00 PM</p>
+            <p className="text-[12px] text-[#6B7194]">Mon - Sat: 9:30 AM - 5:00 PM</p>
             <p className="text-[11px] text-[#4A4F6A] mt-1">Sunday: By appointment</p>
           </div>
           <div className="rounded-xl border border-[#EF4444]/15 bg-[#EF4444]/[0.03] p-6 text-center">
@@ -76,7 +76,7 @@ export default function Contact() {
             <p className="text-sm font-medium text-[#E8ECF4] mb-1">Emergency Support</p>
             <p className="text-[12px] text-[#6B7194] mb-3">System down? Available 24/7</p>
             <Button asChild size="sm" className="bg-[#EF4444]/10 hover:bg-[#EF4444]/20 text-[#EF4444] border border-[#EF4444]/20 hover:border-[#EF4444]/40 rounded-lg text-xs h-8 transition-all duration-200">
-              <a href="tel:+91XXXXXXXXXX"><Phone className="mr-1.5 w-3 h-3" />Emergency Call</a>
+              <a href="tel:+916235153938"><Phone className="mr-1.5 w-3 h-3" />Emergency Call</a>
             </Button>
           </div>
         </motion.div>
